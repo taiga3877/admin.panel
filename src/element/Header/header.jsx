@@ -78,7 +78,7 @@ const Header = () => {
             }}
             className="px-5 py-2 bg-red-600 hover:bg-red-700 transition-all rounded-xl text-white shadow-md"
           >
-            + Add Category
+           LogOut
           </button>
       </ul>
     </motion.div>
