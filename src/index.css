@@ -1,0 +1,31 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Pacifico&display=swap');
+
+* {
+  font-family: "DM Sans", sans-serif;
+}
+/* Стиль для темной темы */
+body.dark-mode {
+  background-color: #1a202c; /* Темный фон */
+  color: white; /* Белый текст */
+}
+
+/* Стиль для светлой темы */
+body.light-mode {
+  background-color: #f7fafc; /* Светлый фон */
+  color: black; /* Черный текст */
+}
+
+/* Пример стилей для компонентов, которые изменяются при смене темы */
+button {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+button.dark-mode {
+  background-color: #4a5568; /* Темная кнопка */
+  color: white;
+}
+
+button.light-mode {
+  background-color: #edf2f7; /* Светлая кнопка */
+  color: black;
+}
