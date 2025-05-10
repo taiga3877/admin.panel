@@ -23,7 +23,7 @@ const routers = createBrowserRouter([
       },
       {
         path: "/homepage", // Этот путь теперь будет работать для страницы Home
-        element: <Home />,
+        element: <Category/>,
       },
     {
       path: "/login",
@@ -31,7 +31,7 @@ const routers = createBrowserRouter([
     },
       {
         path: "/category",
-        element: <Category/>
+        element: <Home/>
       },
       {
         path:"/discount",
